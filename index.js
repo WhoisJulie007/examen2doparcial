@@ -44,16 +44,16 @@ async function askName() {
     const answers = await inquirer.prompt({
       name: 'question_1',
       type: 'list',
-      message: '¿Quién pintó la "Mona Lisa"?\n',
+      message: '¿Cuál es la pelicula favorita de Julia?\n',
       choices: [
-        'Vincent Van Gogh🎨',
-        'Pablo Picasso🎨',
-        'Leonardo da Vinci🎨',
-        'Salvador Dalí🎨',
+        'Interestellar',
+        'Titanes del Pacifico',
+        'Lala Land',
+        'Kong vs Godzilla',
       ],
     });
   
-    return handleAnswer(answers.question_1 === 'Leonardo da Vinci🎨');
+    return handleAnswer(answers.question_1 === 'Interestellar');
   }
   
   async function question2() {
