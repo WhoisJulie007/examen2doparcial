@@ -47,7 +47,7 @@ async function askName() {
       message: '¿Cuál es la pelicula favorita de Julia?\n',
       choices: [
         'Interestellar',
-        'Titanes del Pacifico',
+        'Titanes del Pacifico 1',
         'Lala Land',
         'Kong vs Godzilla',
       ],
